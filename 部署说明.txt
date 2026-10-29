@@ -1,0 +1,12 @@
+晴路 GitHub Pages 部署包
+
+1. 在自己的 GitHub 账号新建 public 仓库，例如 shipping-weather。
+2. 将本目录内的文件和 vendor 文件夹上传到仓库根目录；index.html 必须在根目录。
+3. 打开仓库 Settings → Pages，选择 Deploy from a branch，分支 main，目录 /(root)，保存。
+4. 等待 GitHub 发布后，使用 Pages 页面实际显示的网址测试。
+5. 先不要填写 Custom domain 或修改阿里云 DNS。确认网站及天气数据可访问后再绑定域名。
+
+这是免费公开部署：仓库内的网站代码会公开。不要上传原始订单、客户信息、接口密钥或浏览器模板备份。
+本包只含网站资源，不含订单、密钥、Git历史或原托管平台的部署配置。
+GitHub Pages 不保证国内网络稳定；天气服务也需单独验证。商业运营用途应核对 GitHub Pages 使用限制以及天气数据服务条款。
+现有模板保存在原网址的浏览器存储里，不会自动出现在 github.io 新网址；请先从原网站导出商品模板，再在新网站导入。
